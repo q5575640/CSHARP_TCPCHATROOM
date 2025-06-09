@@ -42,17 +42,6 @@ UI 互動排版和可讀性優化
 
 第二章 系統設計
 
-「系統架構圖」
-
-                PacketHelper.cs（封包協定核心）
-                       │
-       ┌───────────────┼───────────────┐
-       │                               │
-  ServerForm.cs                   ClientForm.cs
-       │                               │
- ┌─────┴──────┐         ┌──────────────┬───────────────┐
- │ Log 匯出    │       RockPaperScissorsForm  DiceGameForm  ChatHistoryForm
-
 「功能模組說明」
 
 PacketHelper.cs：封包編解碼、類型分類與傳輸核心
